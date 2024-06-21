@@ -137,3 +137,81 @@
 // console.log(s--);
 // console.log(s);
 
+// 5. logic operators
+// && Logical AND:true if both the operands/boolean values are true,else evaluates to false
+// || Logical OR: true if either of the operands/boolean values is true. evaluates to false if both are false
+// ! Logical NOT: true if the operand is false and vice-versa.
+
+// AND &&
+// const a= true, b=false;
+// const c= 4;
+// console.log(a && a);
+// console.log(a && b);
+// console.log((c > 2) && (c < 2));
+
+// || OR 
+// const a = true, b = false, c = 4;
+// console.log(a || b); // true
+// console.log(b || b); // false
+// console.log((c>2) || (c<2)); // true
+
+// ! NOT 
+// const a = true, b = false;
+// console.log(!a); // false
+// console.log(!b); // true
+
+// url 
+// https://javascript.info/operators
+
+// 6. comparison operator 
+// x="5"
+// x =="5"  //true
+// x === "5" //false
+// console.log(x);
+// url 
+// https://www.w3schools.com/js/js_comparisons.asps
+
+// 7.condition operator 
+// let company = prompt('which company created javascript?');
+// if(company == 'nestscape'){
+//   console.log("you are right");
+// }else{
+//   console.log("you are wrong");
+// }
+
+// company == 'nestscape' ? console.log("you are right") :  console.log("you are wrong");
+
+// functions 
+// url 
+// https://javascript.info/function-basics
+
+// Array 
+// const fruites = ["Bannana", "Mango", "Orange", "Apple"];
+//       index..... 0           1         2         3
+// length 4
+
+// Properties of Array
+// join()
+// The join() method also joins all array elements into a string.
+// pop()
+// The pop() method removes the last element from an array:
+// push()
+// The push() method adds a new element to an array (at the end):
+// shift()
+// The shift() method removes the first array element and "shifts" all other elements to a lower index.
+// unshift()
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+// splice()
+// The splice() method can be used to add new items to an array:
+// concat()
+// The concat() method creates a new array by merging (concatenating) existing arrays:
+// slice()
+// The slice() method slices out a piece of an array into a new array.
+
+// sort()
+// reverse()
+// URL https://www.w3schools.com/js/js_array_methods.asp
+
+
+
+
